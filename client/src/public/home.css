@@ -1,0 +1,61 @@
+.homepage {
+    font-family: Arial, sans-serif;
+}
+  
+.hero {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 50px 20px;
+}
+  
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+  
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+  
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+}
+  
+.features, .how-it-works, .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+  
+.features h2, .how-it-works h2, .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+  
+.feature-list, .steps, .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.feature, .step, .testimonial {
+    flex: 1;
+    max-width: 30%;
+    margin: 10px;
+}
+  
+.feature h3, .step h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+  
